@@ -1,0 +1,65 @@
+<body>
+   <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <body>
+        <h1 style="text-align:center">Calculator </h1>
+
+    <div class="container">
+
+    <br>
+    <div class="row ">
+        <div class="col-9">
+            <input type='text' id='result' class ='screen w-100 rounded-2' style="text-align: right;">
+        </div>
+       <div class="col-3 ">
+        <input type='button' value = 'Clear' onclick="clearScreen()" class="clear w-100 btn btn-danger"/>
+       </div>
+        
+    </div>
+   
+ 
+
+    <div class="keys">
+
+    <input type="button" value="7" class=" btn btn-lg btn-outline-secondary" onClick="display('7')"></input>
+
+    <input type="button" value="8" class=" btn btn-lg btn-outline-secondary " onClick="display('8')"></input>
+
+    <input type="button" value="9" class=" btn btn-lg btn-outline-secondary" onClick="display('9')"></input>
+
+    <input type="button" value="/" class=" btn btn-lg btn-secondary" onClick="display('/')"></input>
+
+    <input type="button" value="4" class=" btn btn-lg btn-outline-secondary" onClick="display('4')"></input>
+
+    <input type="button" value="5" class=" btn btn-lg btn-outline-secondary" onClick="display('5')"></input>
+
+    <input type="button" value="6" class=" btn btn-lg btn-outline-secondary" onClick="display('6')"></input>
+
+    <input type="button" value="*" class=" btn btn-lg btn-secondary" onClick="display('*')"></input>
+
+    <input type="button" value="1" class=" btn btn-lg btn-outline-secondary" onClick="display('1')"></input>
+
+    <input type="button" value="2" class=" btn btn-lg btn-outline-secondary" onClick="display('2')"></input>
+
+    <input type="button" value="3" class=" btn btn-lg btn-outline-secondary" onClick="display('3')"></input>
+
+    <input type="button" value="-" class=" btn btn-lg btn-secondary" onClick="display('-')"></input>
+
+    <input type="button" value="0" class=" btn btn-lg btn-outline-secondary" onClick="display('0')"></input>
+
+    <input type="button" value="." class=" btn btn-lg btn-outline-secondary" onClick="display('.')"></input>
+
+    <input type="button" value= "=" class=" equal-sign btn btn-lg btn-outline-secondary" onClick="solve()"></input>
+
+    <input type="button" value="+" class=" btn btn-lg btn-secondary " onClick="display('+')"></input>
+
+</div> 
+
+</div> 
+     <script src="js/main.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</head>
+</body>
